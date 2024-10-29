@@ -34,25 +34,7 @@ export const globalStyles = StyleSheet.create({
         letterSpacing: 1.5,
         
     },
-    icon: {
-        position: 'absolute',
-        left: 16,
-        
-    },
-    rating: {
-        padding: 10,
-        marginBottom: 20,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
-    headerImage: {
-        width: 20,
-        height: 20,
-        marginHorizontal: 10,
-    },
-    headerTitle: {
-        flexDirection: 'row',
-    },
+
     input: {
         marginBottom: 5,
         marginTop: 10,
