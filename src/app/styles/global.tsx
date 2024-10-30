@@ -7,7 +7,7 @@ export const globalStyles = StyleSheet.create({
         justifyContent: 'center', 
         alignItems: 'center',
         padding: 20,
-        backgroundColor: '#fff',
+        backgroundColor: '#d5d7e6',
     },
     header: {
         flex: 1,
@@ -17,11 +17,12 @@ export const globalStyles = StyleSheet.create({
         alignItems: 'center',  
         justifyContent: 'flex-start',  
       },
-    titleText: {
+      titleText: {
         fontFamily: 'nunito-bold',
         fontSize: 25, 
         color: '#333',
         marginBottom: 20, 
+        textAlign: 'center',
     },
     paragraph: {
         fontFamily: 'nunito-bold',
@@ -34,21 +35,22 @@ export const globalStyles = StyleSheet.create({
         backgroundColor: '#6200EE', 
         padding: 15,
         borderRadius: 30, 
-        width: 250, 
+        width: 200,  
         alignItems: 'center', 
         marginBottom: 10, 
     },
     card: { 
         backgroundColor: '#f9f9f9', 
         padding: 20,
-        borderRadius: 10, 
+        borderRadius: 40, 
         shadowColor: '#000', 
         shadowOffset: { width: 0, height: 2 }, 
         shadowOpacity: 0.25, 
-        shadowRadius: 3.84,
-        marginVertical: 10, 
-        width: '50%', 
+        shadowRadius: 10,
+        marginVertical: 50, 
+        marginHorizontal: 20, 
         alignItems: 'center', 
+        width: '50%'
     },
     buttonText: {
         fontFamily: 'nunito-bold',
