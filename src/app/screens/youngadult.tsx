@@ -14,13 +14,13 @@ export default function HighSchool() {
     ];
 
     const salary = [
-        { title: 'less than 30,000', key: 'less30000' },
-        { title: '30,000-50,000', key: '30000to50000' },
-        { title: '50,000-60,000', key: '50000to60000' },
-        { title: '60,000-70,000', key: '60000to70000' },
-        { title: '70,000-80,000', key: '70000to80000' },
-        { title: '80,000-90,000', key: '80000to90000' },
-        { title: 'more than 90,000', key: 'more90000' }
+        { title: 'less than 30,000', key: 'B30000less' },
+        { title: '30,000-50,000', key: 'B30000to50000' },
+        { title: '50,000-60,000', key: 'B50000to60000' },
+        { title: '60,000-70,000', key: 'B60000to70000' },
+        { title: '70,000-80,000', key: 'B70000to80000' },
+        { title: '80,000-90,000', key: 'B80000to90000' },
+        { title: 'more than 90,000', key: 'B90000more' }
     ];
     const pressHandler = (key) => {
         navigation.navigate(key);

@@ -6,7 +6,7 @@ import { globalStyles } from '@/src/app/styles/global';
 export default function B800to1000() {
     return(
         <View style = {globalStyles.container}>
-            <Text>800 to 1000 </Text>
+             <Text style = {globalStyles.titleText}> For an income of between 800 and 1000 bi-weekly, here is a goal of how you should be spending your money: </Text>
         </View>
     )
 }

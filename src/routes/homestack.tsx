@@ -15,6 +15,13 @@ import B1000to2000 from '../app/screens/budgetpages/biweekly/1000to2000';
 import B2000more from '../app/screens/budgetpages/biweekly/2000more';
 import B600more from '../app/screens/budgetpages/biweekly/600more';
 import B200less from '../app/screens/budgetpages/biweekly/200less';
+import B30000less from '../app/screens/budgetpages/salary/30000less';
+import B30000to50000 from '../app/screens/budgetpages/salary/30000to50000';
+import B50000to60000 from '../app/screens/budgetpages/salary/50000to60000';
+import B60000to70000 from '../app/screens/budgetpages/salary/60000to70000';
+import B70000to80000 from '../app/screens/budgetpages/salary/70000to80000';
+import B80000to90000 from '../app/screens/budgetpages/salary/80000to90000';
+import B90000more from '../app/screens/budgetpages/salary/9000more';
 
 const Stack = createStackNavigator();
 
@@ -95,6 +102,42 @@ function HomeStack() {
         name="B200less" 
         component={B200less} 
         options={{ title: 'less than 200' }}
+      />
+
+      <Stack.Screen 
+        name="B30000less" 
+        component={B30000less} 
+        options={{ title: 'less than 30000' }}
+      />
+      <Stack.Screen 
+        name="B30000to50000" 
+        component={B30000to50000} 
+        options={{ title: '30000-50000' }}
+      />
+      <Stack.Screen 
+        name="B50000to60000" 
+        component={B50000to60000} 
+        options={{ title: '50000-60000' }}
+      />
+      <Stack.Screen 
+        name="B60000to70000" 
+        component={B60000to70000} 
+        options={{ title: '60000-70000' }}
+      />
+      <Stack.Screen 
+        name="B70000to80000" 
+        component={B70000to80000} 
+        options={{ title: '70000-80000' }}
+      />
+      <Stack.Screen 
+        name="B80000to90000" 
+        component={B80000to90000} 
+        options={{ title: '80000-90000' }}
+      />
+      <Stack.Screen 
+        name="B90000more" 
+        component={B90000more} 
+        options={{ title: 'more than 90000' }}
       />
     </Stack.Navigator>
   );
