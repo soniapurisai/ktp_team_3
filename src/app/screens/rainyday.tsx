@@ -7,13 +7,13 @@ export default function RainyDay() {
     const navigation = useNavigation();
 
     const salary = [
-        { title: 'less than 30,000', key: 'B30000less' },
-        { title: '30,000-50,000', key: 'B30000to50000' },
-        { title: '50,000-60,000', key: 'B50000to60000' },
-        { title: '60,000-70,000', key: 'B60000to70000' },
-        { title: '70,000-80,000', key: 'B70000to80000' },
-        { title: '80,000-90,000', key: 'B80000to90000' },
-        { title: 'more than 90,000', key: 'B90000more' }
+        { title: 'less than 30,000', key: 'B30000lessRainyDay' },
+        { title: '30,000-50,000', key: 'B30000to50000RainyDay' },
+        { title: '50,000-60,000', key: 'B50000to60000RainyDay' },
+        { title: '60,000-70,000', key: 'B60000to70000RainyDay' },
+        { title: '70,000-80,000', key: 'B70000to80000RainyDay' },
+        { title: '80,000-90,000', key: 'B80000to90000RainyDay' },
+        { title: 'more than 90,000', key: 'B90000moreRainyDay' }
     ];
 
     const pressHandler = (key) => {

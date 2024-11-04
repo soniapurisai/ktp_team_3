@@ -7,13 +7,13 @@ export default function College() {
     const navigation = useNavigation();
 
     const biWeekly = [
-        { title: 'less than 200', key: 'B200less' },
-        { title: '200-400', key: 'B200to400' },
-        { title: '400-600', key: 'B400to600' },
-        { title: '600-800', key: 'B600to800' },
-        { title: '800-1000', key: 'B800to1000' },
-        { title: '1000-2000', key: 'B1000to2000' },
-        { title: 'more than 2000', key: 'B2000more' }
+        { title: 'less than 200', key: 'B200lessCollege' },
+        { title: '200-400', key: 'B200to400College' },
+        { title: '400-600', key: 'B400to600College' },
+        { title: '600-800', key: 'B600to800College' },
+        { title: '800-1000', key: 'B800to1000College' },
+        { title: '1000-2000', key: 'B1000to2000College' },
+        { title: 'more than 2000', key: 'B2000moreCollege' }
     ];
 
     const pressHandler = (key) => {

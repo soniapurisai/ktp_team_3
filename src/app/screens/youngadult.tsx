@@ -3,14 +3,14 @@ import { View, Text, FlatList, TouchableOpacity, ScrollView } from 'react-native
 import { useNavigation } from '@react-navigation/native';
 import { globalStyles } from '../styles/global';
 
-export default function HighSchool() {
+export default function YoungAdult() {
     const navigation = useNavigation();
 
     const biWeekly = [
-        { title: 'less than 200', key: 'B200less' },
-        { title: '200-400', key: 'B200to400' },
-        { title: '400-600', key: 'B400to600' },
-        { title: 'more than 600', key: 'Bmore600' }
+        { title: 'less than 200', key: 'B200lessYoungAdult' },
+        { title: '200-400', key: 'B200to400YoungAdult' },
+        { title: '400-600', key: 'B400to600YoungAdult' },
+        { title: 'more than 600', key: 'B600moreYoungAdult' }
     ];
 
     const salary = [

@@ -17,6 +17,11 @@ export const globalStyles = StyleSheet.create({
         alignItems: 'center',  
         justifyContent: 'flex-start',  
       },
+      headerImage: {
+        width: 800,
+        height: 600,
+        marginHorizontal: 10,
+    },
       titleText: {
         fontFamily: 'nunito-bold',
         fontSize: 25, 
